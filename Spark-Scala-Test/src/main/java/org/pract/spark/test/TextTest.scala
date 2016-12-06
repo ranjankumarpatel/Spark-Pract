@@ -40,7 +40,7 @@ as either "ham" or "spam". The goal of the exercise is to build a
 
     val conf = new SparkConf().setAppName("Text Analysis").setMaster("local[*]")
     val sc = new SparkContext(conf)
-    val datadir = "F:/hadoop/BDAS-S-Resource-Bundle/RB-Scala"
+    val datadir = "F:/spark/BDAS-S-Resource-Bundle/RB-Scala"
 
     //Create a SQL Context from Spark context
     val sqlContext = new org.apache.spark.sql.SQLContext(sc)
